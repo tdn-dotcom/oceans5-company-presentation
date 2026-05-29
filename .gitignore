@@ -1,0 +1,20 @@
+# Large binary source files (keep locally, not in repo)
+*.pptx
+*.potx
+*.docx
+*.thmx
+*.jpg
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+*.swp
