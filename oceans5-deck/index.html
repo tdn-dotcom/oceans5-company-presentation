@@ -805,6 +805,12 @@ Reveal.on('slidechanged', function(event) {
   if (event.indexh === 8) initMarketChart();
   if (event.indexh === 9) initMixChart();
 });
+// Also init for direct URL navigation (hash)
+Reveal.on('ready', function(event) {
+  if (event.indexh === 4) initAiChart();
+  if (event.indexh === 8) initMarketChart();
+  if (event.indexh === 9) initMixChart();
+});
 
 let aiDone = false, marketDone = false, mixDone = false;
 
