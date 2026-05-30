@@ -3,7 +3,8 @@
 *.potx
 *.docx
 *.thmx
-*.jpg
+# Root-level logo only — deck photography in oceans5-deck/assets/ is tracked
+Oceans5_Logo3.jpg
 
 # Python
 __pycache__/
